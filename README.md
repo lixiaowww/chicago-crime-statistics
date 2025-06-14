@@ -55,4 +55,26 @@ python src/main.py
 ## 数据来源
 
 数据来自芝加哥警察局的CLEAR系统，通过芝加哥市开放数据门户获取：
-https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2 
+- **官方数据源**: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2
+- **Kaggle数据集**: https://www.kaggle.com/datasets/chicagopolice/chicago-crime-data
+
+## 数据存储说明
+
+**注意**: 本GitHub仓库不包含原始数据文件（CSV和ZIP文件），因为这些文件较大且已经上传到Snowflake数据仓库中进行处理和分析。
+
+### 如何获取数据：
+1. **下载原始数据**: 从上述数据源链接下载数据文件
+2. **数据存放位置**: 将下载的文件放在 `data/` 目录下
+3. **或使用Snowflake**: 数据已上传到Snowflake，可以直接通过SQL查询使用
+
+### 数据文件结构：
+```
+data/
+├── chicago_crime_dataset_v2.csv.zip    # 原始压缩文件
+├── extracted/
+│   └── chicago_crime_dataset_v2.csv     # 解压后的CSV文件（约2GB）
+└── split_files/                         # 分割后的小文件（用于Snowflake上传）
+    ├── chicago_crime_part_001.csv
+    ├── chicago_crime_part_002.csv
+    └── ...
+```

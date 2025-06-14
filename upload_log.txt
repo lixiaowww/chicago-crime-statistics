@@ -1,0 +1,17 @@
+﻿Upload started at 06/13/2025 23:58:32
+06/13/2025 23:59:28 - SUCCESS: chicago_crime_part_001.csv uploaded in 30.5615148s
+06/13/2025 23:59:59 - SUCCESS: chicago_crime_part_002.csv uploaded in 29.1712347s
+06/14/2025 00:00:33 - SUCCESS: chicago_crime_part_003.csv uploaded in 32.0658898s
+06/14/2025 00:01:06 - SUCCESS: chicago_crime_part_004.csv uploaded in 31.186569s
+06/14/2025 00:01:42 - SUCCESS: chicago_crime_part_005.csv uploaded in 32.9007607s
+06/14/2025 00:02:19 - SUCCESS: chicago_crime_part_006.csv uploaded in 35.6316515s
+06/14/2025 00:02:58 - SUCCESS: chicago_crime_part_007.csv uploaded in 37.1214372s
+06/14/2025 00:03:40 - SUCCESS: chicago_crime_part_008.csv uploaded in 39.4366254s
+06/14/2025 00:04:18 - SUCCESS: chicago_crime_part_009.csv uploaded in 35.4204216s
+06/14/2025 00:04:55 - SUCCESS: chicago_crime_part_010.csv uploaded in 35.4426235s
+06/14/2025 00:05:37 - SUCCESS: chicago_crime_part_011.csv uploaded in 39.4667141s
+06/14/2025 00:06:18 - SUCCESS: chicago_crime_part_012.csv uploaded in 39.6153864s
+06/14/2025 00:06:59 - SUCCESS: chicago_crime_part_013.csv uploaded in 38.2917007s
+06/14/2025 00:07:39 - SUCCESS: chicago_crime_part_014.csv uploaded in 38.4026151s
+06/14/2025 00:08:17 - SUCCESS: chicago_crime_part_015.csv uploaded in 35.5824948s
+Upload completed at 06/14/2025 00:08:19 - Success: 15, Failed: 0
